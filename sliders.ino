@@ -2,7 +2,7 @@
 
 Servo servos[6];
 int initial_positions[] = {90, 90, 90, 90, 90, 70};
-int speed = 20;
+int speed = 10;
 
 void setup() {
   Serial.begin(9600);
